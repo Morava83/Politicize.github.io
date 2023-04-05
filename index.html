@@ -57,6 +57,20 @@
         background-color: #f8f8f8;
         font-size: 16px;
       }
+      input[type=button] {
+        width: 20%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      input[type=button]:hover {
+        background-color: #45a049;
+      }
     </style>
   </head>
   <body>
@@ -74,7 +88,7 @@
     </div>
     <div id="input-section">
       <input type="text" id="input" placeholder="Enter a name and scroll down">
-      <button onclick="politicize()">Politicize</button>
+      <input type="button" value="Politicize" onclick="politicize()">
     </div>
     <div id="image-section">
       <img id="image" src="" alt="">
