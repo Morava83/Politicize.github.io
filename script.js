@@ -10,4 +10,4 @@ function politicize() {
     }
     document.getElementById("input").value = "";
   }
-  
+  //new photo
