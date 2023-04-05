@@ -10,3 +10,4 @@ function politicize() {
     }
     document.getElementById("input").value = "";
   }
+  
