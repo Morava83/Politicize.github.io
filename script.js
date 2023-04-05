@@ -6,7 +6,7 @@ function politicize() {
     if (republicans.includes(input)) {
       image.src = "https://upload.wikimedia.org/wikipedia/commons/9/9b/Republicanlogo.svg";
     } else if (democrats.includes(input)) {
-      image.src = "https://img.freepik.com/premium-vector/donkey-colors-american-flag-symbol-democratic-party-usa-isolated-icon-vector-illustration-design_431724-7343.jpg";
+      image.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/DemocraticLogo.svg/1200px-DemocraticLogo.svg.png";
     } else {
       alert("Invalid input.");
     }
