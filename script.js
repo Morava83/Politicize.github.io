@@ -1,4 +1,5 @@
 function politicize() {
+    document.body.appendChild(republicanImage);
     const inputText = document.getElementById("input-text").value;
     if (inputText.toLowerCase() === "donald trump") {
       document.body.innerHTML = "";
