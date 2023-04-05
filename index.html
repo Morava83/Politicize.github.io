@@ -1,49 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
     <title>Politicize</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-      }
-      #header {
-        text-align: center;
-        margin-top: 30px;
-      }
-      h1 {
-        font-size: 36px;
-        font-weight: bold;
-      }
-      h2 {
-        font-size: 18px;
-        font-weight: normal;
-      }
-      #container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 50px;
-      }
-      #trump {
-        width: 45%;
-      }
-      #biden {
-        width: 45%;
-      }
-      img {
-        width: 100%;
-        height: auto;
-      }
-      #footer {
-        text-align: center;
-        margin-top: 50px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
   </head>
   <body>
     <div id="header">
@@ -57,6 +17,13 @@
       <div id="biden">
         <img src="https://phantom-marca.unidadeditorial.es/beb593b2ff158ad65735ee196da6694e/crop/11x0/643x421/resize/1320/f/jpg/assets/multimedia/imagenes/2022/02/26/16458863622431.jpg" alt="Joe Biden">
       </div>
+    </div>
+    <div id="input-section">
+      <input type="text" id="input">
+      <button onclick="politicize()">Politicize</button>
+    </div>
+    <div id="image-section">
+      <img id="image" src="" alt="">
     </div>
     <div id="footer">
       <p>In Development</p>
