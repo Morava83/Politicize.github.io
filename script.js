@@ -49,8 +49,10 @@ function politicize() {
 
     
     if (republicanCounter > democraticCounter) {
+      alert("Republican");
       image.src = "https://upload.wikimedia.org/wikipedia/commons/9/9b/Republicanlogo.svg";
     } else if (democraticCounter > republicanCounter) {
+      alert("Democrat");
       image.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/DemocraticLogo.svg/1200px-DemocraticLogo.svg.png";
     } else {
       alert("Moderate");
