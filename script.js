@@ -5,6 +5,7 @@ function politicize() {
     //const democrats = ["andrew jackson", "martin van buren", "martin buren", "james k. polk", "james polk", "franklin pierce", "james buchanan", "andrew johnson", "grover cleveland", "woodrow wilson", "franklin d. roosevelt", "franklin roosevelt", "fdr", "harry s. truman", "harry truman", "john f. kennedy", "john kennedy", "jfk", "lyndon b. johnson", "lyndon johnson", "james carter", "jimmy carter", "william clinton", "bill clinton", "barack obama", "joe biden", "biden"];
     //questions taken from: https://www.pewresearch.org/
     var Q1 = prompt("You would rather have a smaller government providing fewer services than a bigger government providing more services"); //R
+    alert(Q18);
     var Q2 = prompt("America’s openness to people from all over the world is essential to who we are as a nation"); //D
     var Q3 = prompt("In general, would you say experts who study a subject for many years are usually WORSE at making good policy decisions than other people"); //R
     var Q4 = prompt("The U.S. has gained more than it has lost from increased trade"); //D
@@ -23,6 +24,7 @@ function politicize() {
     var Q17 = prompt("On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible\nHow do you feel toward Democrats?"); 
     var Q18 = prompt("On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible\nHow do you feel toward Republicans?"); 
 
+    
 
     const responses = [Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13,Q14,Q15,Q16]
 
