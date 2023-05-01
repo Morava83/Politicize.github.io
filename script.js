@@ -5,7 +5,7 @@ function politicize() {
     //const democrats = ["andrew jackson", "martin van buren", "martin buren", "james k. polk", "james polk", "franklin pierce", "james buchanan", "andrew johnson", "grover cleveland", "woodrow wilson", "franklin d. roosevelt", "franklin roosevelt", "fdr", "harry s. truman", "harry truman", "john f. kennedy", "john kennedy", "jfk", "lyndon b. johnson", "lyndon johnson", "james carter", "jimmy carter", "william clinton", "bill clinton", "barack obama", "joe biden", "biden"];
     //questions taken from: https://www.pewresearch.org/
     var Q1 = prompt("You would rather have a smaller government providing fewer services than a bigger government providing more services"); //R
-    alert(Q18);
+    alert(Q1);
     var Q2 = prompt("America’s openness to people from all over the world is essential to who we are as a nation"); //D
     var Q3 = prompt("In general, would you say experts who study a subject for many years are usually WORSE at making good policy decisions than other people"); //R
     var Q4 = prompt("The U.S. has gained more than it has lost from increased trade"); //D
