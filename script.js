@@ -38,6 +38,9 @@ function politicize() {
       }
     }
 
+    alert(republicanCounter);
+    alert(democraticCounter);
+
     if(Q17 > 50){
       democraticCounter++;
     }
@@ -46,6 +49,8 @@ function politicize() {
       republicanCounter++;
     }
 
+    alert(republicanCounter);
+    alert(democraticCounter);
 
     
     if (republicanCounter > democraticCounter) {
