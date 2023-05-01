@@ -1,5 +1,5 @@
 function politicize() {
-  alert("hi");
+  alert("hi");//one commit behind????
   /*  
   var input = document.getElementById("input").value.toLowerCase();
     var image = document.getElementById("image");
