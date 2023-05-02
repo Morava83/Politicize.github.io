@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Politicize</title>
-    <img src="https://img.kickante.com.br/tinyMce/1f1d2d23c7-logo-1mb-7-1.png?d=1000x333">
+    <img src="https://www.politize.com.br/wp-content/uploads/2022/05/Logo-Politize-2022-PB.png"/>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
     <style>
@@ -11,18 +12,22 @@
         padding: 0;
         font-family: Arial, sans-serif;
       }
+
       #header {
         text-align: center;
         margin-top: 30px;
       }
+
       h1 {
         font-size: 36px;
         font-weight: bold;
       }
+
       h2 {
         font-size: 18px;
         font-weight: normal;
       }
+
       #container {
         display: flex;
         flex-direction: row;
@@ -30,24 +35,30 @@
         align-items: center;
         margin: 50px;
       }
+
       #trump {
         width: 45%;
       }
+
       #biden {
         width: 45%;
       }
+
       img {
         width: 100%;
         height: auto;
       }
+
       #footer {
         text-align: center;
         margin-top: 50px;
       }
+
       #input-container {
         margin: 50px;
         text-align: center;
       }
+
       input[type=text] {
         width: 60%;
         padding: 12px 20px;
@@ -58,6 +69,7 @@
         background-color: #f8f8f8;
         font-size: 16px;
       }
+
       input[type=button] {
         width: 20%;
         background-color: #4CAF50;
@@ -69,16 +81,16 @@
         cursor: pointer;
         font-size: 16px;
       }
+
       input[type=button]:hover {
         background-color: #45a049;
       }
+
     </style>
   </head>
+
   <body>
-    <div id="header">
-      
-      <h1>Are you a Democrat or a Republican?</h1>
-    </div>
+ 
     <div id="container">
       <div id="trump">
         <img src="https://static.independent.co.uk/2021/03/10/03/GettyImages-1304610824%20%281%29.jpg?quality=50&width=640&auto=webp" alt="Donald Trump">
@@ -91,7 +103,9 @@
       <input type="text" id="input" placeholder="Enter your name and scroll down">
       <input type="button" value="Politicize Me" onclick="politicize()">
     </div>
-    <center><p id = "name"></p></center>
+    <center>
+      <p id="name"></p>
+    </center>
     <div id="image-section">
       <img id="image" src="" alt="">
     </div>
@@ -99,4 +113,5 @@
       <p>In Development</p>
     </div>
   </body>
+
 </html>
