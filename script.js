@@ -4,14 +4,7 @@ function politicize() {
   var image = document.getElementById("image");
 
   //questions taken from: https://www.pewresearch.org/
-  var Q1 = prompt("You would rather have a smaller government providing fewer services than a bigger government providing more services"); //R
-  var Q2 = prompt("America’s openness to people from all over the world is essential to who we are as a nation"); //D
-  var Q3 = prompt("In general, would you say experts who study a subject for many years are usually WORSE at making good policy decisions than other people"); //R
-  var Q4 = prompt("The U.S. has gained more than it has lost from increased trade"); //D
-  var Q5 = prompt("Nothing needs to be done to ensure equal rights for all Americans regardless of their racial or ethnic backgrounds"); //R
-  var Q6 = prompt("Business Corportations make too much profit"); //D
-  var Q7 = prompt("It would bother you a lot to regularly hear people speak a language other than English in public places in your community"); //R
-  var Q8 = prompt("There are other countries that are better than the U.S."); //D
+  
   var Q9 = prompt("People being too easily offended by things others say is not a problem at all"); //R
   var Q10 = prompt("People saying things that are very offensive to others is a major problem"); //D
   var Q11 = prompt("When it comes to candidates for political office, I usually feel like there is at least one candidate who shares most of my views"); //R
@@ -25,7 +18,7 @@ function politicize() {
 
 
 
-  const responses = [Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16]
+  const responses = [Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16]
 
   republicanCounter = 0;
   democraticCounter = 0;
