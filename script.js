@@ -1,6 +1,6 @@
 function politicize() {
 
-  var input = document.getElementById("input").value.toLowerCase();
+  var name = document.getElementById("input").value;
   var image = document.getElementById("image");
 
   //questions taken from: https://www.pewresearch.org/
@@ -49,14 +49,15 @@ function politicize() {
 
   if (republicanCounter > democraticCounter) {
     image.src = "https://upload.wikimedia.org/wikipedia/commons/9/9b/Republicanlogo.svg";
+    document.getElementById("name").innerHTML = name + " is a Republican";
   } else if (democraticCounter > republicanCounter) {
     image.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/DemocraticLogo.svg/1200px-DemocraticLogo.svg.png";
+    document.getElementById("name").innerHTML = name + " is a Democrat";
   } else {
     image.src = "https://www.vhv.rs/dpng/d/430-4308955_united-states-presidential-election-democratic-party-democrats-and.png";
+    document.getElementById("name").innerHTML = name + " is a Moderate/Independent";
   }
-
+	
   document.getElementById("input").value = "";
 
 }
-
-  
