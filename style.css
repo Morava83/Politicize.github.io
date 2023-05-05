@@ -32,18 +32,19 @@ h2 {
   width: 45%;
 }
 
-.DonaldTrump{
-  clip-path: circle();
-}
-
+/*
 .JoeBiden{
   clip-path: circle();
 }
 
+.DonaldTrump{
+  clip-path: circle();
+}
+*/
 img {
   width: 100%;
   height: auto;
-  
+  border-radius: 50%;
 }
 
 #footer {
