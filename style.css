@@ -1,53 +1,92 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
+    
+      .logo {
+        width: 150px;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
 
+      #header {
+        text-align: center;
+        margin-top: 30px;
+      }
 
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+      }
 
-h1 {
-  font-size: 36px;
-  font-weight: bold;
-}
+      h2 {
+        font-size: 18px;
+        font-weight: normal;
+      }
 
-h2 {
-  font-size: 18px;
-  font-weight: normal;
-}
+      #container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 50px;
+      }
 
-#container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 50px;
-}
+      #trump {
+        width: 45%;
+      }
 
-#trump {
-  width: 45%;
-}
+      #biden {
+        width: 45%;
+      }
+      .PoliticizeLogo{
+      border-radius: 10%;
+      }
+      .JoeBiden{
+        border-radius: 50%;
+      }
+      .DonaldTrump{
+      border-radius: 50%;
+      }
+      
+      img {
+        width: 100%;
+        height: auto;
+        
+      }
 
-#biden {
-  width: 45%;
-}
+      #footer {
+        text-align: center;
+        margin-top: 50px;
+      }
 
-/*
-.JoeBiden{
-  clip-path: circle();
-}
+      #input-container {
+        margin: 50px;
+        text-align: center;
+      }
 
-.DonaldTrump{
-  clip-path: circle();
-}
-*/
-img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
+      input[type=text] {
+        width: 60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+      }
 
-#footer {
-  text-align: center;
-  margin-top: 50px;
-}
+      input[type=button] {
+        width: 20%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      input[type=button]:hover {
+        background-color: #45a049;
+      }
