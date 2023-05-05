@@ -1,6 +1,6 @@
 # Politicize.github.io
 
-Webpage that determines your political affilation by asking a set of questions.
+Webpage that determines your political affiliation by asking a set of questions.
 
 Part of Buildspace Season 3 - working with Michael Long 
 
