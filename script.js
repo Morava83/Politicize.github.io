@@ -3,9 +3,9 @@ function politicize() {
   var name = document.getElementById("input").value;
   var image = document.getElementById("image");
 
-  //questions taken from: https://www.pewresearch.org/
+  //questions adapted from: https://www.pewresearch.org/
   
-  var Q9 = prompt("People being too easily offended by things others say is not a problem at all\nAnswer with: yes/maybe/no"); //R
+  var Q9 = prompt("I don't consider it a problem when people are "triggered" by something someone says\nAnswer with: yes/maybe/no"); //R
   var Q10 = prompt("People saying things that are very offensive to others is a major problem\nAnswer with: yes/maybe/no"); //D
   var Q11 = prompt("When it comes to candidates for political office, I usually feel like there is at least one candidate who shares most of my views\nAnswer with: yes/maybe/no"); //R
   var Q12 = prompt("In general, White people benefit a fair amount from advantages in society that Black people do not have\nAnswer with: yes/maybe/no"); //D
