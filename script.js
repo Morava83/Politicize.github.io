@@ -5,7 +5,7 @@ function politicize() {
 
   //questions adapted from: https://www.pewresearch.org/
   
-  var Q9 = prompt("I don't consider it a problem when people are "triggered" by something someone says\nAnswer with: yes/maybe/no"); //R
+  var Q9 = prompt("I don't consider it a problem when people are triggered by something someone says\nAnswer with: yes/maybe/no"); //R
   var Q10 = prompt("Overall, people who are convicted of crimes in this country serve too much time in prison\nAnswer with: yes/maybe/no"); //D
   var Q11 = prompt("When it comes to candidates for political office, I usually feel like there is at least one candidate who shares most of my views\nAnswer with: yes/maybe/no"); //R
   var Q12 = prompt("Visible minorities face significant challenges in this country, compared to their counterparts\nAnswer with: yes/maybe/no"); //D
