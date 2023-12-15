@@ -8,13 +8,13 @@ function politicize() {
   var Q9 = prompt("I don't consider it a problem when people are "triggered" by something someone says\nAnswer with: yes/maybe/no"); //R
   var Q10 = prompt("Overall, people who are convicted of crimes in this country serve too much time in prison\nAnswer with: yes/maybe/no"); //D
   var Q11 = prompt("When it comes to candidates for political office, I usually feel like there is at least one candidate who shares most of my views\nAnswer with: yes/maybe/no"); //R
-  var Q12 = prompt("In general, White people benefit a fair amount from advantages in society that Black people do not have\nAnswer with: yes/maybe/no"); //D
-  var Q13 = prompt("Greater social acceptance of people who are transgender is somewhat bad for society\nAnswer with: yes/maybe/no"); //R
+  var Q12 = prompt("Visible minorities face significant challenges in this country, compared to their counterparts\nAnswer with: yes/maybe/no"); //D
+  var Q13 = prompt("The LGBTQ+ movement has gone too far\nAnswer with: yes/maybe/no"); //R
   var Q14 = prompt("People saying things that are offensive to others is a major problem\nAnswer with: yes/maybe/no"); //D
   var Q15 = prompt("Government policies should support religious views and beliefs\nAnswer with: yes/maybe/no"); //R
   var Q16 = prompt("It would be acceptable if another country became as militarily powerful as the U.S\nAnswer with: yes/maybe/no"); //D
-  var Q17 = prompt("On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible\nHow do you feel toward Democrats?");
-  var Q18 = prompt("On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible\nHow do you feel toward Republicans?");
+  var Q17 = prompt("On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible\nWhat's your opinion on John F. Kennedy?");
+  var Q18 = prompt("On a scale of 0 to 100, where 0 means you feel as cold and negative as possible and 100 means you feel as warm and positive as possible\nWhat's your opinion on Ronald Reagan?");
 
 
 
